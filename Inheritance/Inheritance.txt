@@ -1,0 +1,7 @@
+Interitance :- extracting the property from parent class (super) to child class (sub).
+Functions:
+a. Polymorphism
+b. Code Reusuability
+c. Method OverRiding
+
+                                            
