@@ -1,21 +1,21 @@
 package Inheritance;
 class Shape{
-    float length;
-    float breadth;
-    float height;
+    int  length;
+    int breadth;
+    int height;
 }
 
 
 class Cube extends Shape {
     void toCalculateCube(){
-        float volume = length * length * length;
+        int volume = length * length * length;
         System.out.println("The volume of cube: " + volume);
     }
 }
 class Cuboid extends Shape {
      void toCalculateCuboid(){
-        float volume = length * breadth *height;
-        System.out.println("The volume of cuboid:" + volume);
+        int volume = length * breadth *height;
+        System.out.println("The volume of cuboid: " + volume); 
      }
     } 
     public class SecondExample{
