@@ -1,0 +1,4 @@
+Super Keyword:
+i. It is used to access parent constructor.
+ii. It is used to access parent attribute .
+iii. It is used to access parent methods.
