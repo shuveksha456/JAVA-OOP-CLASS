@@ -28,26 +28,22 @@ public class LoopingStatement {
         while (true) {
             System.out.println("Enter any number");
             enteredNumber = scanner.nextInt();
-            if (enteredNumber == 5) {           //Keeps looping until the user enters 5
+            if (enteredNumber == 5) { // Keeps looping until the user enters 5
                 System.out.println("Existing");
                 break;
             }
         }
         // Do-while Loop
-        int enteredNumber1; 
+        int enteredNumber1;
         do {
             System.out.println("Enter any number");
-            enteredNumber1 = scanner.nextInt();  
-            if (enteredNumber1 == 5) {           //Keeps looping until the user enters 5
+            enteredNumber1 = scanner.nextInt();
+            if (enteredNumber1 == 5) { // Keeps looping until the user enters 5
                 break;
-        }
+            }
+        } while (enteredNumber1 != 5);
+        System.out.println("FOUND");
+        scanner.close();
+
     }
-        while (enteredNumber1 != 5) ;
-        System.out.println("FOUND");      
-                scanner.close();
-                
-            
-        
-   
-}
 }

@@ -3,11 +3,4 @@ i. It is used to access parent constructor.
 ii. It is used to access parent attribute .
 iii. It is used to access parent methods.
 
-Dynamic Method dispatch ( Type Of Override.)
-i. It is also known as  Runtime Polymorphism.
 
-  Advantages :-
-  a. Loose coupling can be achieved.
-   It can be achieved in :
-   i. Abstract classes
-   ii. Intefaces 
