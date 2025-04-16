@@ -4,4 +4,25 @@ a. Polymorphism
 b. Code Reusuability
 c. Method OverRiding
 
+Types of Inheritance:
+Single 
+Multiple
+Multilevel
+Hybrid
+
+
+Exception:
+i. Arithmetic Exception
+ii. ArrayIndex OutOfBounds
+iii. Null Pointer ""
+iv. IO(Input Output) Exception
+v. SQL Exception
+
+Exception Handling
+a. try-catch
+b. throw
+c. throws
+
+
+
                                             

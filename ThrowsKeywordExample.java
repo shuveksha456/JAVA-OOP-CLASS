@@ -15,3 +15,5 @@ public class ThrowsKeywordExample{
         }
     }
 }
+
+//Throw Keyword
