@@ -55,5 +55,32 @@ public class HandelingStringExample {
     //Index of string occurence
     int firstIndex = text.indexOf("Java");
     System.out.println("First 'Java' is at : " + firstIndex);
+    System.out.println("----------------");
+
+       //Modifying String
+    String orginalString = "     Java Programming     ";
+
+    // Trim whitespaces 
+    String trimmedString = orginalString.trim();
+    System.out.println("Removed whitespaces string: " + trimmedString);  //Java Programming
+    System.out.println("----------------");
+
+    //Replace Text
+  String replaceString = trimmedString.replace("Java" , "Python");
+  System.out.println("Replaced String: " + replaceString);
+  System.out.println("----------------");
+
+  //Concat
+  String newString = replaceString.concat("is used for Artificial Intelligence");
+  System.out.println("New String: " + newString);
+  System.out.println("----------------");
+
+  //String Buffer
+  StringBuffer stringBuffer = new StringBuffer("Hello ");
+  stringBuffer.append("World");
+  stringBuffer.insert(6,"Java");
+  stringBuffer.reverse();
+  System.out.println("Modified String Buffer: " + stringBuffer);
+
 }
 }
