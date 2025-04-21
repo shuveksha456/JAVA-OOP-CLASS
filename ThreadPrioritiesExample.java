@@ -5,6 +5,15 @@ class FirstThread extends Thread{
         );
     }
 }
+
+class SecondThread extends Thread{
+    public void run(){
+        System.out.println(
+           getName() + " (Priority: " + getPriority() + ")is running" 
+        );
+    }
+}
+
 public class ThreadPrioritiesExample {
     public static void main(String[] args) {
         // Create instances of threads 
