@@ -1,5 +1,5 @@
 
-import java.io.File;
+ import java.io.File;
 public class CreateDirectory{
     public static void main(String[]args){
         File dir= new File("myFolder");
